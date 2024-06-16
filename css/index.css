@@ -34,3 +34,41 @@ body {
 .vh-extend-25{
     height: 25vh;
 }
+    .rizal-page {
+
+            background-image: url('../assets/rizal-bg.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: white;
+            background-attachment: fixed;
+            height: 80vh;
+        }
+
+
+ #rizal-page-2 {
+            background-image: url('../assets/rizal-bg.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+       
+        }
+
+    #rizal-page-3 {
+            background-image: url('../assets/family.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+       
+        }
+        
+
+
+     #content{
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.8);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+border: 1px solid rgba(255, 255, 255, 0.3);
+     }   

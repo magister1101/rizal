@@ -5,23 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rizal</title>
-    <?php
-    include 'bootstrap.php';
-    ?>
+    <?php  include 'bootstrap.php';?>
     <link rel="stylesheet" href="css/index.css">
-    <style>
-        .rizal-page {
-            height: 80vh;
-            background-image: url('assets/rizal-bg.jpg');
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            color: white;
-        }
-        .left-side, .right-side {
-            padding: 20px;
-        }
-    </style>
 </head>
 
 <body>
@@ -32,7 +17,7 @@
     <div class="rizal-page d-flex justify-content-center align-items-center">
         <div class="container">
             <div class="row text-light">
-                <div class="col-md-6 left-side banner">
+                <div class="col-md-6 left-side banner animated slow zoomIn">
                     <!-- Left side content -->
                     <p class="h3 fw-light">The man behind our freedom</p>
                     <p class="h1">Discover the <br> history of Rizal.</p>
@@ -50,13 +35,20 @@
                 </div>
             </div>
         </div>
+        <br>
     </div>
 
+    <?php include 'constants/footer.php';?>
     <?php
-        include 'constants/footer.php';
+        include 'jss.php';
     ?>
 
-
+ <script type="text/javascript">
+  AOS.init({
+    easing: 'ease-in-out-sine',
+    duration: 1000
+  });
+ </script>
 
 
 </body>
