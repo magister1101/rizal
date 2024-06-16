@@ -38,7 +38,8 @@
         <br>
     </div>
 
-    <?php include 'constants/footer.php';?>
+    <?php 
+    include 'constants/footer.php';?>
     <?php
         include 'jss.php';
     ?>

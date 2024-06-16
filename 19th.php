@@ -18,22 +18,22 @@
     <?php
     include 'constants/navbar.php';
     ?>
-   <section id="rizal-page-2">
-    <div class="container mt-5 text-light">
-         <div class="row">
+    <section id="rizal-page-2">
+        <div class="container mt-5 text-light">
+            <div class="row">
 
-             <div class="col-md-6 left-side animated slow slideInLeft">
-                 <audio controls id="player" hidden>
+                <div class="col-md-6 left-side animated slow slideInLeft">
+                    <audio controls id="player" hidden>
                         <source src="assets/19th.mp3" type="audio/mpeg">
                     </audio>
-                     <p class="fs-1">The Philippines in the 19th Century Context</p>
+                    <p class="fs-1">The Philippines in the 19th Century Context</p>
                     <div>
                         <button class="btn btn-outline-info" onclick="document.getElementById('player').play()">Play</button>
                         <button class="btn btn-outline-info" onclick="document.getElementById('player').pause()">Pause</button>
                     </div>
                 </div>
-                 <!-- end of col-md6 -->
-              
+                <!-- end of col-md6 -->
+
                 <div class="col-md-12 text-dark fw-bold mt-2 animated slow zoomIn" id="content">
                     <p>The 19th century was a pivotal era in Philippine history, marked by significant changes, turmoil, and the struggle for identity. During this time, nationalist sentiments began to stir among the Filipino people, influenced by liberal ideas and driven by a desire for change and independence from Spanish colonial rule.</p>
                     <p class="mt-2"> One of the most notable developments was the rise of the educated illustrados, who spearheaded a propaganda movement that sought to challenge the oppressive status quo and call for reforms. Their intellectual awakening and defiance against Spanish oppression laid the groundwork for the eventual push towards independence.</p>
@@ -45,10 +45,13 @@
                 </div>
 
 
-         </div>
-    </div>
-<br>
-</section>
+            </div>
+        </div>
+        <br>
+    </section>
+    <?php
+    include 'constants/footer.php';
+    ?>
 
 
 </body>
@@ -56,15 +59,13 @@
 </html>
 
 
-    <?php
-    include 'constants/footer.php';
-    ?>
 
-  <?php include 'jss.php';?>
 
-    <script type="text/javascript">
-  AOS.init({
-    easing: 'ease-in-out-sine',
-    duration: 1000
-  });
- </script>
+<?php include 'jss.php'; ?>
+
+<script type="text/javascript">
+    AOS.init({
+        easing: 'ease-in-out-sine',
+        duration: 1000
+    });
+</script>
