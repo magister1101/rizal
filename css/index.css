@@ -1,0 +1,36 @@
+body {
+    background-color: #131313;
+}
+
+.footer {
+    height: 60vh;
+}
+
+.banner .letter::first-letter {
+    initial-letter: 2;
+}
+
+.justified {
+    text-align: justify;
+}
+
+.btn-outline-info {
+    color: white;
+    border-color: rgb(214, 255, 214);
+}
+
+.btn-outline-info:hover {
+    color: rgb(0, 0, 0);
+    border-color: rgb(240, 255, 185);
+    background-color: rgb(240, 255, 185);
+}
+
+.vh-extend{
+    height: 80vh;
+}
+.vh-extend-50{
+    height: 50vh;
+}
+.vh-extend-25{
+    height: 25vh;
+}
